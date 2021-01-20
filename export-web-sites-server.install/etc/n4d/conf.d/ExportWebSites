@@ -1,0 +1,15 @@
+[SETUP]
+type=python
+path=ExportWebSites.py
+class=ExportWebSites
+[METHODS]
+export_moodle=sudo,admins,admin
+export_jclic=sudo,admins,admin
+export_pmb=sudo,admins,admin
+un_export_moodle=sudo,admins,admin
+un_export_jclic=sudo,admins,admin
+un_export_pmb=sudo,admins,admin
+read_export_sites=sudo,admins,admin
+export_active=sudo,admins,admin
+apache2_restart=sudo,admins,admin
+sites_configuration=sudo,admins,admin
