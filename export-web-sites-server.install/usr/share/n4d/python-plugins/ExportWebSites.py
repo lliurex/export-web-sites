@@ -17,7 +17,7 @@ class ExportWebSites:
 	mod_files=["proxy","proxy_http","proxy_html","rewrite","ext_filter"]
 	mod_available="/etc/apache2/mods-available/"
 	mod_enabled="/etc/apache2/mods-enabled/"
-	file_sites_configuration="/etc/apache2/sites-enabled/000-default.conf"
+	#file_sites_configuration="/etc/apache2/sites-enabled/000-default.conf"
 	
 	#web_sites=[moodle,jclic,pmb]
 	
@@ -405,7 +405,7 @@ class ExportWebSites:
 			self.dprint(e)
 			return [False,str(e)]
 	# def apache2_restart
-	
+	'''
 	def sites_configuration(self):
 		try:
 			modify=True
@@ -445,4 +445,5 @@ class ExportWebSites:
 			print ("[ExportWebSitesServer] %s"%e)
 			self.dprint(e)
 			return [False,str(e)]
+	'''		
 	#def sites_configuration

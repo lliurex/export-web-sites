@@ -201,7 +201,7 @@ class N4dManager:
 			return [False,str(e)]	
 		
 	#def apache2_restart
-	
+	'''
 	def sites_configuration(self,validation):
 		
 		try:
@@ -216,6 +216,6 @@ class N4dManager:
 			print ("[ExportWebServicesN4DManager] ERROR: %s"%e)
 			self.lprint (validation,"[ExportWebServicesN4DManager] %s"%e)
 			return [False,str(e)]	
-		
+	'''	
 	#def sites_configuration
-	
+			

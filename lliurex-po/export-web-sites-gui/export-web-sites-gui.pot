@@ -1,35 +1,33 @@
-# Spanish translations for PACKAGE package
-# Traducciones al español para el paquete PACKAGE.
-# Copyright (C) 2021 THE PACKAGE'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# lliurex <lliurex@lliurexvirtualbox>, 2021.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-20 17:06+0100\n"
-"PO-Revision-Date: 2021-01-20 17:07+0100\n"
-"Last-Translator: lliurex <lliurex@lliurexvirtualbox>\n"
-"Language-Team: Spanish\n"
-"Language: es\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.6\n"
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:35
 msgid "User:"
-msgstr "Usuario:"
+msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:77
 msgid "Password:"
-msgstr "Contraseña:"
+msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:119
 msgid "Server:"
-msgstr "Servidor:"
+msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:140
 msgid "server"
@@ -37,41 +35,41 @@ msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:150
 msgid "Login"
-msgstr "Acceder"
+msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:220
 msgid "Apply"
-msgstr "Aplicar"
+msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:258
 msgid "Moodle"
-msgstr "Moodle"
+msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:272
 msgid "Jclic"
-msgstr "Jclic"
+msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:287
 msgid "Pmb"
-msgstr "Pmb"
+msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:398
 msgid "Export Web Sites"
-msgstr "Export Web Sites"
+msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/ExportWebSites.py:167
 msgid "Validating user..."
-msgstr "Validando usuario..."
+msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/ExportWebSites.py:209
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/ExportWebSites.py:240
 msgid "Invalid user, please only net admin users."
-msgstr "Usuario no válido. Por favor sólo administradores de red"
+msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/ExportWebSites.py:317
 msgid "Apache service fails. Log is found in /tmp/export-web-sites.log "
-msgstr "El servicio de Apache ha fallado. Log en /tmp/export-web-sites-log"
+msgstr ""
 
 #: ../export-web-sites-gui.install/usr/share/export-web-sites/ExportWebSites.py:319
 msgid "Finished. Log is found in /tmp/export-web-sites.log "
-msgstr "Finalizado. Log en /tmp/export-web-sites.log"
+msgstr ""

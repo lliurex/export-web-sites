@@ -12,4 +12,3 @@ un_export_pmb=sudo,admins,admin
 read_export_sites=sudo,admins,admin
 export_active=sudo,admins,admin
 apache2_restart=sudo,admins,admin
-sites_configuration=sudo,admins,admin

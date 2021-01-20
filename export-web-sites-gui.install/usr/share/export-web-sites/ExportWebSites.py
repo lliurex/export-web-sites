@@ -16,6 +16,8 @@ import N4dManager
 import xmlrpc.client
 import ssl
 import time
+import datetime
+
 #import ExportWebSitesServer
 
 signal.signal(signal.SIGINT, signal.SIG_DFL)
@@ -47,6 +49,7 @@ class ExportWebSites:
 		if ExportWebSites.DEBUG:
 			print("[ExportWebSitesGUI] %s"%arg)
 		
+		self.log(arg)
 	#def dprint	
 	
 	
@@ -67,7 +70,7 @@ class ExportWebSites:
 	def start_gui(self):
 
 		builder=Gtk.Builder()
-		builder.set_translation_domain('export-web-sites')
+		builder.set_translation_domain('export-web-sites-gui')
 		builder.add_from_file("/usr/share/export-web-sites/rsrc/export-web-sites.ui")
 		self.main_window=builder.get_object("main_window")
 		self.main_window.set_icon_from_file('/usr/share/export-web-sites/rsrc/export-web-sites-icon.svg')
@@ -216,7 +219,8 @@ class ExportWebSites:
 
 				# ***START LOG
 				self.dprint("")
-				self.dprint("** START EXPORT WEB SITES GUI **")
+				log_msg="EXPORT WEB SITES GUI STARTING AT: " + datetime.datetime.today().strftime("%d/%m/%y %H:%M:%S") +"\n"
+				self.log(log_msg)
 				self.dprint("   ---------------------")
 				self.dprint("")
 				self.initial_state=self.n4d_man.read_export_sites(self.user_val,self.web_sites)
@@ -233,7 +237,7 @@ class ExportWebSites:
 				self.stack.set_visible_child_name("main")
 				
 			else:
-				self.login_msg_label.set_markup("<span foreground='red'>"+_("Invalid user, please only netadmin users.")+"</span>")
+				self.login_msg_label.set_markup("<span foreground='red'>"+_("Invalid user, please only net admin users.")+"</span>")
 				self.login_button.set_sensitive(True)
 		
 	#validate_user_listener
@@ -310,9 +314,9 @@ class ExportWebSites:
 				
 			self.spinner.stop()
 			if self.apache_error:
-				self.txt_apply.set_markup("<span foreground='red'>"+_("Apache service fails. Log is found in /var/log/export-web-sites.log ")+"</span>")
+				self.txt_apply.set_markup("<span foreground='red'>"+_("Apache service fails. Log is found in /tmp/export-web-sites.log ")+"</span>")
 			else:
-				self.txt_apply.set_markup("<span foreground='blue'>"+_("Finished. Log is found in /var/log/export-web-sites.log ")+"</span>")
+				self.txt_apply.set_markup("<span foreground='blue'>"+_("Finished. Log is found in /tmp/export-web-sites.log ")+"</span>")
 			
 			#Gtk.main_quit()
 			#sys.exit(0)
@@ -368,12 +372,13 @@ class ExportWebSites:
 					self.dprint("Apache Export Service is avaiable")
 				else:
 					self.dprint("Error with Apache Export Service")
-					
+			
+			'''		
 			if self.n4d_man.sites_configuration(self.user_val)[0]:
 				self.dprint("Sites-configuration is configured")
 			else:
 				self.dprint("Error Sites-configuration")
-			
+			'''
 			
 			if restart_apache:
 				apache2_restart=self.n4d_man.apache2_restart(self.user_val)
@@ -401,7 +406,14 @@ class ExportWebSites:
 		
 		
 	#def_apply_delete_methods
+	def log(self,msg):
+		
+		log_file="/tmp/export-web-sites.log"
+		f=open(log_file,"a+")
+		f.write(str(msg) + '\n')
+		f.close()
 
+	#def log	
 
 #class LliurexPerfilreset
 

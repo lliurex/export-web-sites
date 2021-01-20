@@ -30,7 +30,7 @@ GtkCheckButton:checked:focus {
   -gtk-icon-source: -gtk-scaled(url("rsrc/checkbutton_checked_hover.png"), url("rsrc/checkbutton_checked_hover.png")); 
   }
 
-GtkCheckButton:insensitive {
+GtkCheckButton:disabled {
   -gtk-icon-source: -gtk-scaled(url("rsrc/checkbutton_insensitive.png"), url("rsrc/checkbutton_insensitive.png")); }
 
 
@@ -118,7 +118,7 @@ GtkLabel {
         color: white;
 }
 
-.entry:insensitive
+.entry:disabled
 {
         background-color: #bbbbbb;
         border-bottom: 1px solid transparent;
