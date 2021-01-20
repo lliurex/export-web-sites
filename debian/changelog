@@ -1,0 +1,91 @@
+export-web-sites (0.2.3) xenial; urgency=medium
+
+  * Adding sudo group to zomando
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 29 Mar 2019 10:44:48 +0100
+
+export-web-sites (0.2.2) xenial; urgency=high
+
+  * Adding sudo group 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 13 Feb 2019 09:14:43 +0100
+
+export-web-sites (0.2.1) xenial; urgency=high
+
+  * adding new module to apache server proxy_html 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Fri, 01 Feb 2019 14:36:24 +0100
+
+export-web-sites (0.2.0) xenial; urgency=high
+
+  * Fix bug in Moodle 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Mon, 26 Nov 2018 12:45:05 +0100
+
+export-web-sites (0.1.1) xenial; urgency=high
+
+  * Moved fix to preinst
+  * Disabled jclic for now
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 22 Oct 2018 10:49:34 +0200
+
+export-web-sites (0.0.10) xenial; urgency=high
+
+  * Fix bug adding proxy module
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Fri, 18 Oct 2018 12:52:30 +0200
+
+export-web-sites (0.0.9) xenial; urgency=high
+
+  * Adding Opac export/remove to user access in PMB 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Fri, 07 Sep 2018 12:52:30 +0200
+
+export-web-sites (0.0.8) xenial; urgency=high
+
+  * Fix bugs 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Mon, 03 Sep 2018 10:53:10 +0200
+
+export-web-sites (0.0.7) xenial; urgency=high
+
+  * Fix bug in login, sensitive true in login button 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Mon, 03 Sep 2018 10:06:31 +0200
+
+export-web-sites (0.0.6) xenial; urgency=high
+
+  * Yet another banner update
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 06 Aug 2018 09:57:39 +0200
+
+export-web-sites (0.0.5) xenial; urgency=high
+
+  * new banner details
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 03 Aug 2018 13:01:18 +0200
+
+export-web-sites (0.0.4) xenial; urgency=high
+
+  * New banner details
+  * Removing debug options 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 03 Aug 2018 09:11:28 +0200
+
+export-web-sites (0.0.3) xenial; urgency=medium
+
+  * Fixed banner px settings
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 02 Aug 2018 15:03:16 +0200
+
+export-web-sites (0.0.2) xenial; urgency=high
+
+  * Banner Small and solved app path 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Thu, 02 Aug 2018 14:28:30 +0200
+
+export-web-sites (0.0.1) xenial; urgency=high
+
+  * Initial release.
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Wed, 13 Jun 2018 12:46:16 +0200
