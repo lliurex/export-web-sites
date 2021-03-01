@@ -1,3 +1,9 @@
+export-web-sites (0.3.3) bionic-updates; urgency=medium
+
+  * Initial release for bionic
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 01 Mar 2021 08:55:43 +0100
+
 export-web-sites (0.2.3) xenial; urgency=medium
 
   * Adding sudo group to zomando
