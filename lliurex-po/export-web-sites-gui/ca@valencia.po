@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-20 17:06+0100\n"
+"PO-Revision-Date: 2021-02-27 12:41+0000\n"
+"Last-Translator: Angels <gimenez_angcam@gva.es>\n"
+"Language-Team: Valencian <http://weblate.lliurex.net/projects/"
+"export-web-sites/export-web-sites/ca@valencia/>\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.1\n"
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:35
+msgid "User:"
+msgstr "Usuari:"
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:77
+msgid "Password:"
+msgstr "Contrasenya:"
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:119
+msgid "Server:"
+msgstr "Servidor:"
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:140
+msgid "server"
+msgstr "Servidor"
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:150
+msgid "Login"
+msgstr "Inici de sessió"
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:220
+msgid "Apply"
+msgstr "Aplica"
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:258
+msgid "Moodle"
+msgstr "Moodle"
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:272
+msgid "Jclic"
+msgstr "Jclic"
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:287
+msgid "Pmb"
+msgstr "Pmb"
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/rsrc/export-web-sites.ui:398
+msgid "Export Web Sites"
+msgstr "Export Web Sites"
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/ExportWebSites.py:167
+msgid "Validating user..."
+msgstr "S'està validant l'usuari..."
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/ExportWebSites.py:209
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/ExportWebSites.py:240
+msgid "Invalid user, please only net admin users."
+msgstr "L'usuari no és vàlid. Només per a administradors de xarxa."
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/ExportWebSites.py:317
+msgid "Apache service fails. Log is found in /tmp/export-web-sites.log "
+msgstr "El servei Apache ha fallat. Log en /tmp/export-web-sites-log "
+
+#: ../export-web-sites-gui.install/usr/share/export-web-sites/ExportWebSites.py:319
+msgid "Finished. Log is found in /tmp/export-web-sites.log "
+msgstr "Finalitzat. Log en /tmp/export-web-sites.log "
